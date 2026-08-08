@@ -115,5 +115,5 @@ streamlit run app.py
 
 # AIForge — Multi-Agent AI Assistant
 
-🚀 **Live Demo:** https://aiforge.streamlit.app/  
+🚀 **Live Demo:** https://aiforge-multiagent.streamlit.app
 📂 **Source Code:** https://github.com/Bibek306/AIForge
