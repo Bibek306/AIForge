@@ -103,7 +103,7 @@ AIForge/
 
 # Run Locally
 
-git clone <your-repository-url>
+git clone https://github.com/Bibek306/AIForge.git
 cd AIForge
 
 python -m venv venv
