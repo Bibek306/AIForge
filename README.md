@@ -1,6 +1,6 @@
 # AIForge — Multi-Agent AI Assistant
 
-AIForge is a multi-agent AI assistant built using **LangGraph, LangChain, Groq, Ollama, Chroma, Tavily, and Streamlit**.
+AIForge is a multi-agent AI assistant built using **LangGraph, LangChain, Groq, Hugging Face, Chroma, Tavily, and Streamlit**.
 
 It uses a **Supervisor Agent** to route user queries to specialized agents.
 
@@ -70,18 +70,18 @@ Streamlit
 LangGraph
 LangChain
 Groq
-Ollama
+Hugging Face
 Chroma
 Tavily
 
 # Models
 Component	   Model
-Supervisor  llama-3.3-70b-versatile
-RAG	        llama-3.3-70b-versatile
-Web	        llama-3.1-8b-instant
-Code	      llama-3.1-8b-instant
-Chat	      llama-3.1-8b-instant
-Embeddings	nomic-embed-text
+Supervisor | llama-3.3-70b-versatile
+RAG	       | llama-3.3-70b-versatile
+Web	       | llama-3.1-8b-instant
+Code	     | llama-3.1-8b-instant
+Chat	     | llama-3.1-8b-instant
+Embeddings | all-MiniLM-L6-v2
 
 # Project Structure
 
@@ -110,6 +110,5 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
-ollama pull nomic-embed-text
 
 streamlit run app.py
