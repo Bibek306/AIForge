@@ -6,7 +6,8 @@ langchain-core
 langchain-community
 langchain-classic
 langchain-groq
-langchain-ollama
+langchain-huggingface
+sentence-transformers
 langchain-chroma
 langchain-text-splitters
 langchain-tavily
@@ -15,4 +16,3 @@ docx2txt
 
 chromadb
 pypdf
-ollama
