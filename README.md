@@ -117,6 +117,3 @@ streamlit run app.py
 
 🚀 **Live Demo:** https://aiforge.streamlit.app/  
 📂 **Source Code:** https://github.com/Bibek306/AIForge
-
-🚀 **Live Demo:** https://aiforge.streamlit.app/  
-📂 **Source Code:** https://github.com/Bibek306/AIForge
