@@ -101,7 +101,7 @@ AIForge/
     ├── chat_agent.py
     └── code_agent.py
 
-# Run Locally
+# Run locally
 
 git clone https://github.com/Bibek306/AIForge.git
 cd AIForge
@@ -115,5 +115,4 @@ streamlit run app.py
 
 # AIForge — Multi-Agent AI Assistant
 
-🚀 **Live Demo:** https://aiforge-multiagent.streamlit.app
-📂 **Source Code:** https://github.com/Bibek306/AIForge
+[🚀 Live Demo](https://aiforge-multiagent.streamlit.app/) · [📂 Source Code](https://github.com/Bibek306/AIForge)
