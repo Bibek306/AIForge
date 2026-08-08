@@ -1,4 +1,5 @@
 import streamlit as st
+import uuid
 
 from graph import graph
 from agents.rag_agent import initialize_rag
@@ -11,12 +12,14 @@ st.title("AI-Forge")
 
 # GRAPH CONFIG
 
+if "thread_id" not in st.session_state:
+    st.session_state.thread_id = str(uuid.uuid4())
+
 config = {
     "configurable": {
-        "thread_id": "user_1"
+        "thread_id": st.session_state.thread_id
     }
 }
-
 
 # CHAT HISTORY
 
